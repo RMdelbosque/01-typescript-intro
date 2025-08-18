@@ -22,16 +22,19 @@ const audioPlayer: AudioPlayer = {
 
 const song = 'New Song';
 
-const {
-    song:anotherSong,
-    songDuration:duration,
-    details } = audioPlayer;
-
+const { song:anotherSong, songDuration:duration, details } = audioPlayer;
 const { author } = details;
 
 
-console.log('Song: ', anotherSong)
-console.log('Duration: ', duration)
-console.log('Author: ', author)
+// console.log('Song: ', anotherSong)
+// console.log('Duration: ', duration)
+// console.log('Author: ', audioPlayer.details.author)
+// console.log('Author: ', author)
+
+
+
+const [p1, p2, trunks, otro = 'Not found']: string[] = ['Goku', 'Vegeta','Trunks'];
+
+console.error('Personajke 3:', otro);
 
 export {};
